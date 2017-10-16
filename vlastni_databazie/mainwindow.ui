@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>715</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
+      <widget class="QWidget" name="vyrobce">
+       <attribute name="title">
+        <string>Vyrobci</string>
+       </attribute>
+       <widget class="QComboBox" name="comboBox">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>10</y>
+          <width>131</width>
+          <height>22</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser">
+        <property name="geometry">
+         <rect>
+          <x>5</x>
+          <y>90</y>
+          <width>681</width>
+          <height>192</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>81</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Vyber si výrobca</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>10</y>
+          <width>71</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Teraz čo s tym</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton">
+        <property name="geometry">
+         <rect>
+          <x>530</x>
+          <y>32</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Chcem o nem niečo vediet</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>40</y>
+          <width>171</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Chcem vidiet jeho telefoni</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>10</y>
+          <width>221</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Chcem vediet kde prodavaju jeho produkty</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="Telefon">
+       <attribute name="title">
+        <string>Telefoni</string>
+       </attribute>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Vybral jsi si vyrobce:</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_2">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>40</y>
+          <width>271</width>
+          <height>22</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>101</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Tu su jeho telefony</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>0</y>
+          <width>161</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Chceš niečo robiť s tymto dalej?</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>10</y>
+          <width>271</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>jj, ukaz kde ho prodavaj</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>50</y>
+          <width>271</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>jj, ukaz mi jeho popis</string>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>111</y>
+          <width>671</width>
+          <height>171</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="prodejni">
+       <attribute name="title">
+        <string>Prodejny</string>
+       </attribute>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>151</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Vybral jsi si spolecnost</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>131</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Vybral jsi od nich</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>60</y>
+          <width>47</width>
+          <height>13</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QTextBrowser" name="textBrowser_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>60</y>
+          <width>681</width>
+          <height>241</height>
+         </rect>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>326</x>
+          <y>40</y>
+          <width>331</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Telefony od tohoto vyrobce maj na sklade: </string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>Pridani</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QTabWidget" name="tabWidget_2">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="tab_2">
+           <attribute name="title">
+            <string>Vyrobce</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="tab_3">
+           <attribute name="title">
+            <string>Telefon</string>
+           </attribute>
+          </widget>
+          <widget class="QWidget" name="tab_4">
+           <attribute name="title">
+            <string>DoProdejny</string>
+           </attribute>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>715</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,27 @@
+vyrobce - mobilni telefon - prodejny
+1-N-N
+List toho, jakej telefon chcu
+
+Pø.
+Samsung - amung galaxši šedìm -Alza
+			        \ÈÉEÈÈÉ
+	- amung galakši Ejs   -Alza
+				\Èéeèèé
+
+
+v kjù tı
+Vyrobci
+Vyberu si vyrobce z combo boxu <- vyrobci v combo boxu budou nacteni z databazie.
+Mam Tri dalsi moznosti: 1.chci bud videt, kde se prodavaj jeho produkty. <- presmeruju do prodejny. Jsem v prodejne. vim jen id tvurce. v kolonce tvurce mam 
+			tedy jmeno tvurce, ktere jsem zjistil pres id. Tedka vezmu zase id toho tvurce a vyselectuju vsechny telefony, jejichz IDcka souhlasi
+			
+			
+				
+			*domyslet!
+
+			2.Chci videt jeho telefony <-presmeruju na tab Telefoni. Vezmu si sebou id vyrobce vybraneho z combo boxu ve vyrobci. To pouziju,
+			abych v combo boxu vylistoval vsechny telefoni od id vyrobce 
+
+
+			3. Chcem o nem nieèo vediet <- èeknu co vybral v combo boxu, vezmu id, databazi reknu, ze chci popis 
+			tohohle id a nahraju ho do text browseru
